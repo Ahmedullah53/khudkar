@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/khudkar/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/khudkar/static/js/main.61627aed.chunk.js",
+    "main.js.map": "/khudkar/static/js/main.61627aed.chunk.js.map",
+    "runtime-main.js": "/khudkar/static/js/runtime-main.6378fbd2.js",
+    "runtime-main.js.map": "/khudkar/static/js/runtime-main.6378fbd2.js.map",
+    "static/js/2.f1651255.chunk.js": "/khudkar/static/js/2.f1651255.chunk.js",
+    "static/js/2.f1651255.chunk.js.map": "/khudkar/static/js/2.f1651255.chunk.js.map",
+    "index.html": "/khudkar/index.html",
+    "precache-manifest.3c57806ff2e76eae347181326fb3787f.js": "/khudkar/precache-manifest.3c57806ff2e76eae347181326fb3787f.js",
+    "service-worker.js": "/khudkar/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/khudkar/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f1651255.chunk.js.LICENSE.txt": "/khudkar/static/js/2.f1651255.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6378fbd2.js",
+    "static/js/2.f1651255.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.61627aed.chunk.js"
+  ]
+}
