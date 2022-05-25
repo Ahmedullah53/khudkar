@@ -1,17 +1,23 @@
-import React from "react";
-import Nav from "./components/nav/nav";
-import Banner from "./components/banner";
-import Section from "./components/section";
-import Footer from "./components/footer";
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Layout from './hocs/Layout';
+import Home from './components/Home';
+import Blog from './components/Blog';
+import BlogDetail from './components/BlogDetail';
+import Category from './components/Category';
 
-export default function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Banner title="KHUDKAR" subText="Automate everything" />
-      <Section />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Layout>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/blog' element={<Blog />} />
+          <Route exact path='/blog/:id' element={<BlogDetail />} />
+          <Route exact path='/category/:id' element={<Category />} />
+        </Routes>
+    </Layout>
+  </Router>
+);
 
+
+export default App;
