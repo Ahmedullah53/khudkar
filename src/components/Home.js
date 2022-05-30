@@ -70,7 +70,8 @@ const Home = () => (
 const styles = {
   'home-banner':{
     'margin-top': '-25rem',
-    height: '65rem'
+    height: '60rem',
+    overflow: 'hidden'
   }
 }
 
