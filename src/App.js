@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Blog from './components/Blog';
 import BlogDetail from './components/BlogDetail';
 import Category from './components/Category';
+import Contactus from './components/Contactus';
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/blog' element={<Blog />} />
+          <Route exact path='/contact-us' element={<Contactus />} />
           <Route exact path='/blog/:id' element={<BlogDetail />} />
           <Route exact path='/category/:id' element={<Category />} />
         </Routes>
